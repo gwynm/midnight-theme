@@ -12,7 +12,7 @@ grunt watch
 
 cd dist
 ruby -run -ehttpd . -p8000
-Now go to Extensions -> Import Extension -> http://localhost:8000/ext.json
+Now go to Extensions -> Import Extension -> http://localhost:8000/ext.json . Note that you need to press enter; clicking Import Extension again will fail.  
 
 Make changes to src/main.scss. Grunt watch will pick them up and update dist/dist.css .
 
